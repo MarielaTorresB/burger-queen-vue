@@ -32,69 +32,9 @@
     data() {
       return {
         showAll: false,
-        headers: [{
-            text: 'Pedido',
-            align: 'left',
-            value: 'name',
-          },
-          {
-            text: 'precio',
-            value: 'price'
-          },
-        ],
       }
     },
-    platillos: [{
-        name: 'Frozen Yogurt',
-        category: 'Cliente 1',
-        price: 5,
-      },
-      {
-        name: 'Ice cream sandwich',
-        category: 'Cliente 2',
-        price: 5,
-      },
-      {
-        name: 'Eclair',
-        category: 'Cliente 3',
-        price: 5,
-      },
-      {
-        name: 'Cupcake',
-        category: 'Cliente 1',
-        price: 5,
-      },
-      {
-        name: 'Gingerbread',
-        category: 'Cliente 2',
-        price: 5,
-      },
-      {
-        name: 'Jelly bean',
-        category: 'Cliente 3',
-        price: 5,
-      },
-      {
-        name: 'Lollipop',
-        category: 'Cliente 4',
-        price: 5,
-      },
-      {
-        name: 'Honeycomb',
-        category: 'Cliente 1',
-        price: 5,
-      },
-      {
-        name: 'Donut',
-        category: 'Cliente 2',
-        price: 5,
-      },
-      {
-        name: 'KitKat',
-        category: 'Cliente 5',
-        price: 5,
-      },
-    ],
+
   }
 
 
@@ -107,8 +47,6 @@
     justify-content: flex-end;
   }
 
-
-
   .v-card__actions {
     flex-direction: column;
     justify-self: flex-end;
@@ -119,4 +57,6 @@
     display: flex;
     flex-direction: column;
   }
+
+ 
 </style>
